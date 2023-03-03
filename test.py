@@ -1,4 +1,7 @@
-def msg(num, ch):
-  print(ch+str(num))
+def func(x):
+  res = 0
+  for i in range(x):
+     res += i
+  return res
 
-msg(18, 'A')
+print(func(3))
